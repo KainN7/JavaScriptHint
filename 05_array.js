@@ -1,13 +1,13 @@
-const cars = ['Мазда', 'Форд', 'БМВ', 'Мерседес']
+// const cars = ['Мазда', 'Форд', 'БМВ', 'Мерседес']
 // const people = [
 //   {name: 'Alexsander', budget: 4200},
 //   {name: 'Elena', budget: 3500},
 //   {name: 'Victoria', budget: 1700}
 // ]
-const fib = [1, 1, 2, 3, 5, 8, 13]
+// const fib = [1, 1, 2, 3, 5, 8, 13]
 
 // Function
-function addItemToEnd() {
+// function addItemToEnd() {
 
 }
 
@@ -71,17 +71,17 @@ function addItemToEnd() {
 // const reverseText = text.split('').reverse().join('')
 // console.log(reverseText)
 
-const people = [
-  {name: 'Alexsander', budget: 4200},
-  {name: 'Elena', budget: 3500},
-  {name: 'Victoria', budget: 1700}
-]
+// const people = [
+//   {name: 'Alexsander', budget: 4200},
+//   {name: 'Elena', budget: 3500},
+//   {name: 'Victoria', budget: 1700}
+// ]
 
-const allBudget = people
-    .filter(person => person.budget > 2000)
-    .reduce((acc,person) => {
-    acc += person.budget
-    return acc
-    }, 0)
+// const allBudget = people
+//     .filter(person => person.budget > 2000)
+//     .reduce((acc,person) => {
+//     acc += person.budget
+//     return acc
+//     }, 0)
 
-console.log(allBudget)
+// console.log(allBudget)
